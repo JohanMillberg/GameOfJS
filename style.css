@@ -4,6 +4,8 @@ body {
     align-items: center;
     font-family: Garamond;
     gap: 20px;
+    background-color: black;
+    color: white;
 }
 
 .header {
@@ -44,4 +46,9 @@ body {
 
 .alive-cell {
     background-color: teal;
+}
+
+input[type="text"] {
+    background-color: black;
+    color: white;
 }
