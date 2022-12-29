@@ -1,3 +1,5 @@
+"use strict";
+
 function buttonHeaderPair(title, propertyToUpdate, updateCallback, initialValue) {
     const newHeader = document.createElement("h3");
     newHeader.textContent = title;
@@ -33,7 +35,7 @@ function createCell(state, cellWidth) {
 }
 
 const randomizeState = () => {
-    states = ["alive-cell", "dead-cell"];
+    const states = ["alive-cell", "dead-cell"];
     return states[Math.floor(Math.random() * states.length)];
 }
 
